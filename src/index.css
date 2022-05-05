@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Header {
+  background-color: #3b70d3;
+  color: #ffffff;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.m-2 {
+  margin: .5rem;
+}
+
+.submitBtn {
+  background-color: rgb(87, 138, 204);
+  border-radius: 4px;
+  padding: 8px 16px;
+  vertical-align: middle;
+  color: black;
+}
+
+.bg-success {
+  background-color: #4fc94f;
+}
+
+.bg-danger {
+  background-color: #d34d3b;
+}
+
+.newGameBtn {
+  background-color: rgb(87, 138, 204);
+  border-radius: 4px;
+  padding: 8px 16px;
+  vertical-align: middle;
+  color: black;
+}
